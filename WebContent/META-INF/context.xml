@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+		name="jdbc/foodbook"
+		auth="Container" 			
+		driverClassName="com.mysql.jdbc.Driver"
+		type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/foodbook?useEncoding=true&amp;characterEncoding=UTF-8"
+		username="root" 
+		password="root" 
+		>
+	</Resource>
+</Context>
